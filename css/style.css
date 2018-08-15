@@ -159,8 +159,8 @@ ul.address li ul.agileits-address-text li {
     color: #b94604;
     position: relative;
     white-space: nowrap;
-   
-    font: normal 40px/50px Barlow Condensed, sans-serif;
+    font: normal 40px/50px 'Julius Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: 600;
     top: 0;
     left: 0;
@@ -1068,6 +1068,8 @@ ul.w3_address li i {
 .w3-banner-left_txt {
     margin: 0;
     padding: 13em 0 0 0;
+    background: rgba(0, 0, 0, 0);
+    outline: 6px solid rgba(255, 255, 255, 0.03);
 }
 ul.w3_address li span {
     margin-top: 10px;
@@ -1186,6 +1188,8 @@ ul.w3_address li:nth-child(4) span {
 }
 .w3-banner-left_txt h3 {
     font-size: 4em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 6px solid rgba(255, 255, 255, 0.03);
 }
 .w3-banner_bottom_txt {
     width: 36%;
@@ -1197,6 +1201,13 @@ ul.w3_address li:nth-child(4) span {
 }
 .w3-banner-left_txt h3 {
     font-size: 3em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 6px solid rgba(255, 255, 255, 0.03);
+}
+.w3-banner-left_txt p {
+    font-size: 1.4em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 6px solid rgba(255, 255, 255, 0.03);
 }
 .w3layouts_gallery_grid a {
     bottom: 4em;
@@ -1260,6 +1271,8 @@ p.footer-w3l-te {
 @media(max-width:480px){
 .w3-banner-left_txt p {
     font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 2px solid rgba(255, 255, 255, 0.03);
 }
 .w3ls-agile-left {
     width: 87%;
@@ -1305,9 +1318,13 @@ p.footer-w3l-te {
 @media(max-width:384px){
 .w3-banner-left_txt h3 {
     font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 2px solid rgba(255, 255, 255, 0.03);
 }
 .w3-banner-left_txt p {
     font-size: 1em;
+    background: rgba(0, 0, 0, 0.384);
+    outline: 2px solid rgba(255, 255, 255, 0.03);
 }
 .w3ls-agile-left-info h4, .social-info h4 {
     font-size: 1.4em;
